@@ -1,0 +1,62 @@
+{
+    "packages": [
+        {
+            "name": "marcelxyz/php-xml-digital-signature",
+            "version": "v1.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcelxyz/php-XmlDigitalSignature.git",
+                "reference": "0caebc0799586185a916cfecb27ec27d584f6f0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcelxyz/php-XmlDigitalSignature/zipball/0caebc0799586185a916cfecb27ec27d584f6f0c",
+                "reference": "0caebc0799586185a916cfecb27ec27d584f6f0c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3"
+            },
+            "suggest": {
+                "ext-mcrypt": "MCrypt extension",
+                "ext-openssl": "OpenSSL extension"
+            },
+            "time": "2017-04-07T15:43:02+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "XmlDsig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Tyszkiewicz",
+                    "email": "marcel.tyszkiewicz@gmail.com"
+                }
+            ],
+            "description": "A PHP library for signing XML documents using digital signatures",
+            "homepage": "https://github.com/marcelxyz/php-XmlDigitalSignature",
+            "keywords": [
+                "pkcs",
+                "signature",
+                "xml",
+                "xml-dsig",
+                "xml-sig",
+                "xmldsig"
+            ],
+            "support": {
+                "issues": "https://github.com/marcelxyz/php-XmlDigitalSignature/issues",
+                "source": "https://github.com/marcelxyz/php-XmlDigitalSignature/tree/v1.0"
+            },
+            "install-path": "../marcelxyz/php-xml-digital-signature"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
